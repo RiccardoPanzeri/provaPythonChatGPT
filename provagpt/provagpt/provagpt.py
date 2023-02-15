@@ -1,3 +1,4 @@
+#importo la libreria openai
 import openai
 #affinchè il programma funzioni, è necessario inserire qui la chiave API OpenAi personale.
 openai.api_key = "Inserisci la tua chiave API OpenAI"
