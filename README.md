@@ -1,2 +1,2 @@
-# provaPytgonChatGPT
-esercizio in cui viene collegato Python al chatbot ChatGPT
+# provaPythonChatGPT
+esercizio dove provo ad utilizzare ChatGPT tramite un programma in Python.
