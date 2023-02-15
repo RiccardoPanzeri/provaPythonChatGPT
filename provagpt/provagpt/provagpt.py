@@ -5,7 +5,7 @@ openai.api_key = "Inserisci la tua chiave API OpenAI"
 #il modello dell'engine di completamento automatico di OpenAI
 modelloEngine = "text-davinci-003"
 restart = True;
-while(restart == True):
+while(restart == True):#mi assicuro che l'utente possa fare più di una domanda
 #e l'input che verrà inserito dall'utente per interagire con l'AI
     domanda = input("Chiedi qualcosa all'AI: ")
 
@@ -22,7 +22,7 @@ while(restart == True):
 
     risposta = completion.choices[0].text #inseriamo la risposta generata in una variabile;
 
-    print(risposta)
+    print(risposta)#stampo la risposta dell'AI a schermo
 
     
 
